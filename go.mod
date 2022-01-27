@@ -1,3 +1,3 @@
-module github.com/digitnow/rivercrossing
+module github.com/Bjarnerovang/rivercrossing
 
 go 1.7
