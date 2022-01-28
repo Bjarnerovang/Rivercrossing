@@ -7,3 +7,7 @@ func ViewState() string {
 func PutInBoat() string {
 	return "rev"
 }
+func CrossRiver() string {
+
+	return "west"
+}
