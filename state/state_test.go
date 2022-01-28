@@ -11,7 +11,7 @@ func TestViewState(t *testing.T) {
 	}
 }
 func TestPutInBoat(t *testing.T) {
-	wanted := "rev"
+	wanted := "dyr"
 	state := PutInBoat()
 	if state != wanted {
 		t.Errorf("Feil, fikk #{state}, ønsket #{wanted}")
@@ -21,6 +21,6 @@ func TestCrossRiver(t *testing.T) {
 	wanted := "west"
 	state := CrossRiver()
 	if state != wanted {
-		t.Errorf("Feil, sikk #{state}, ønsket #{wanted}.")
+		t.Errorf("Feil, fikk #{state}, ønsket #{wanted}")
 	}
 }

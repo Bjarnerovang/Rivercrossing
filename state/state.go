@@ -5,9 +5,8 @@ func ViewState() string {
 	return "[kylling rev korn hs ---\\ \\__/ _________________/---]"
 }
 func PutInBoat() string {
-	return "rev"
+	return "dyr"
 }
 func CrossRiver() string {
-
 	return "west"
 }
